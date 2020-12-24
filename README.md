@@ -12,3 +12,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+
+## Cognito Commands 
+ * new user     ```aws cognito-idp --region eu-west-1 sign-up --client-id 5d48lq3m4pthbj4a36rfdmakic --username mark@dropdin.com --password password --user-attributes Name=name,Value=Mark```

@@ -1,0 +1,1 @@
+export { ConfirmUserSignupTriggerFunction } from './confirm-user-signup-trigger';
